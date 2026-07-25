@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #10131A;
+  --color-card: #1A1E2A;
+  --color-card-border: #2A3040;
+  --color-accent-gold: #C9A227;
+  --color-accent-teal: #34C6B8;
+  --color-primary: #F1EFE9;
+  --color-muted: #8B92A5;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+}
+
+@keyframes meteor {
+  0% { transform: rotate(215deg) translateX(0); opacity: 1; }
+  70% { opacity: 1; }
+  100% {
+    transform: rotate(215deg) translateX(-500px);
+    opacity: 0;
+  }
+}
+
+.animate-meteor-effect {
+  animation: meteor 5s linear infinite;
+}
