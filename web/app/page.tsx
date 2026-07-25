@@ -8,7 +8,7 @@ import { twMerge } from "tailwind-merge";
 import { clsx, type ClassValue } from "clsx";
 import { motion, useMotionValue, useSpring, useTransform, useReducedMotion, useInView } from "framer-motion";
 import { HTMLMotionProps } from "framer-motion";
-import data from "../public/data.json";
+import data from "./data.json";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));

@@ -163,9 +163,9 @@ def generate_nextjs_data(df):
         "topLocations": top_locations
     }
     
-    with open("data.json", "w") as f:
+    with open("../web/app/data.json", "w") as f:
         json.dump(final_data, f, indent=4)
-    print("data.json exported successfully!")
+    print("data.json exported successfully to web/app/data.json!")
 
 
 if __name__ == "__main__":
