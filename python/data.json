@@ -1,0 +1,326 @@
+{
+    "summary": {
+        "totalProperties": 800,
+        "avgPrice": 22422554,
+        "mostExpensiveCity": "Mumbai",
+        "mostAffordableCity": "Lucknow"
+    },
+    "cityStats": [
+        {
+            "city": "Bengaluru",
+            "avgPrice": 24544754,
+            "medianPrice": 15934605,
+            "count": 141
+        },
+        {
+            "city": "Delhi",
+            "avgPrice": 24462913,
+            "medianPrice": 17433050,
+            "count": 121
+        },
+        {
+            "city": "Hyderabad",
+            "avgPrice": 19039726,
+            "medianPrice": 13454612,
+            "count": 137
+        },
+        {
+            "city": "Lucknow",
+            "avgPrice": 11388353,
+            "medianPrice": 7853280,
+            "count": 127
+        },
+        {
+            "city": "Mumbai",
+            "avgPrice": 34131331,
+            "medianPrice": 22429627,
+            "count": 134
+        },
+        {
+            "city": "Pune",
+            "avgPrice": 20634705,
+            "medianPrice": 13838806,
+            "count": 140
+        }
+    ],
+    "propertyTypeStats": [
+        {
+            "type": "Apartment",
+            "avgPrice": 12056570,
+            "count": 170
+        },
+        {
+            "type": "Independent House",
+            "avgPrice": 24734088,
+            "count": 172
+        },
+        {
+            "type": "Plot",
+            "avgPrice": 13204141,
+            "count": 149
+        },
+        {
+            "type": "Studio",
+            "avgPrice": 2765598,
+            "count": 154
+        },
+        {
+            "type": "Villa",
+            "avgPrice": 59618349,
+            "count": 155
+        }
+    ],
+    "yearlyTrend": [
+        {
+            "year": 2021,
+            "avgPrice": 22101224
+        },
+        {
+            "year": 2022,
+            "avgPrice": 20105268
+        },
+        {
+            "year": 2023,
+            "avgPrice": 21989411
+        },
+        {
+            "year": 2024,
+            "avgPrice": 22066583
+        },
+        {
+            "year": 2025,
+            "avgPrice": 25305452
+        }
+    ],
+    "yearlyTrendByCity": [
+        {
+            "year": 2021,
+            "city": "Bengaluru",
+            "avgPrice": 25343109
+        },
+        {
+            "year": 2021,
+            "city": "Delhi",
+            "avgPrice": 20224962
+        },
+        {
+            "year": 2021,
+            "city": "Hyderabad",
+            "avgPrice": 18609483
+        },
+        {
+            "year": 2021,
+            "city": "Lucknow",
+            "avgPrice": 10474069
+        },
+        {
+            "year": 2021,
+            "city": "Mumbai",
+            "avgPrice": 38257297
+        },
+        {
+            "year": 2021,
+            "city": "Pune",
+            "avgPrice": 16571595
+        },
+        {
+            "year": 2022,
+            "city": "Bengaluru",
+            "avgPrice": 21879365
+        },
+        {
+            "year": 2022,
+            "city": "Delhi",
+            "avgPrice": 36880304
+        },
+        {
+            "year": 2022,
+            "city": "Hyderabad",
+            "avgPrice": 15128168
+        },
+        {
+            "year": 2022,
+            "city": "Lucknow",
+            "avgPrice": 12207450
+        },
+        {
+            "year": 2022,
+            "city": "Mumbai",
+            "avgPrice": 26025218
+        },
+        {
+            "year": 2022,
+            "city": "Pune",
+            "avgPrice": 19622243
+        },
+        {
+            "year": 2023,
+            "city": "Bengaluru",
+            "avgPrice": 22553714
+        },
+        {
+            "year": 2023,
+            "city": "Delhi",
+            "avgPrice": 25494762
+        },
+        {
+            "year": 2023,
+            "city": "Hyderabad",
+            "avgPrice": 20475657
+        },
+        {
+            "year": 2023,
+            "city": "Lucknow",
+            "avgPrice": 8645440
+        },
+        {
+            "year": 2023,
+            "city": "Mumbai",
+            "avgPrice": 27864043
+        },
+        {
+            "year": 2023,
+            "city": "Pune",
+            "avgPrice": 25370387
+        },
+        {
+            "year": 2024,
+            "city": "Bengaluru",
+            "avgPrice": 16604948
+        },
+        {
+            "year": 2024,
+            "city": "Delhi",
+            "avgPrice": 19246514
+        },
+        {
+            "year": 2024,
+            "city": "Hyderabad",
+            "avgPrice": 20203987
+        },
+        {
+            "year": 2024,
+            "city": "Lucknow",
+            "avgPrice": 13736836
+        },
+        {
+            "year": 2024,
+            "city": "Mumbai",
+            "avgPrice": 33745124
+        },
+        {
+            "year": 2024,
+            "city": "Pune",
+            "avgPrice": 23226887
+        },
+        {
+            "year": 2025,
+            "city": "Bengaluru",
+            "avgPrice": 32288600
+        },
+        {
+            "year": 2025,
+            "city": "Delhi",
+            "avgPrice": 24981233
+        },
+        {
+            "year": 2025,
+            "city": "Hyderabad",
+            "avgPrice": 21349927
+        },
+        {
+            "year": 2025,
+            "city": "Lucknow",
+            "avgPrice": 11571022
+        },
+        {
+            "year": 2025,
+            "city": "Mumbai",
+            "avgPrice": 41155919
+        },
+        {
+            "year": 2025,
+            "city": "Pune",
+            "avgPrice": 19954371
+        }
+    ],
+    "priceDistribution": {
+        "bins": [
+            852913,
+            14907386,
+            28961859,
+            43016332,
+            57070805,
+            71125279,
+            85179752,
+            99234225,
+            113288698,
+            127343171
+        ],
+        "counts": [
+            408,
+            198,
+            80,
+            34,
+            33,
+            22,
+            13,
+            7,
+            1,
+            4
+        ]
+    },
+    "correlation": {
+        "areaVsPrice": 0.69
+    },
+    "regression": {
+        "slope": 13182.212940898948,
+        "intercept": -3403526.3055577464
+    },
+    "topLocations": {
+        "mostExpensive": [
+            {
+                "city": "Mumbai",
+                "avgPrice": 34131331
+            },
+            {
+                "city": "Bengaluru",
+                "avgPrice": 24544754
+            },
+            {
+                "city": "Delhi",
+                "avgPrice": 24462913
+            },
+            {
+                "city": "Pune",
+                "avgPrice": 20634705
+            },
+            {
+                "city": "Hyderabad",
+                "avgPrice": 19039726
+            }
+        ],
+        "mostAffordable": [
+            {
+                "city": "Lucknow",
+                "avgPrice": 11388353
+            },
+            {
+                "city": "Hyderabad",
+                "avgPrice": 19039726
+            },
+            {
+                "city": "Pune",
+                "avgPrice": 20634705
+            },
+            {
+                "city": "Delhi",
+                "avgPrice": 24462913
+            },
+            {
+                "city": "Bengaluru",
+                "avgPrice": 24544754
+            }
+        ]
+    }
+}
